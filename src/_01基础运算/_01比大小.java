@@ -1,9 +1,9 @@
-package 基础运算;
+package _01基础运算;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class a01比大小 {
+public class _01比大小 {
     public static void main(String args[]) {
         try {
             // 输入流, 从键盘中收数
