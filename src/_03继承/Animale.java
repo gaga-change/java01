@@ -20,5 +20,6 @@ public class Animale {
 
     public void say() {
         System.out.println(this.name);
+        System.out.println("我是动物");
     }
 }

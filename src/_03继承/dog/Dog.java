@@ -13,4 +13,10 @@ public class Dog extends Animale {
         super(age, name);
         this.color = color;
     }
+
+    @Override
+    public void say() {
+        super.say();
+        System.out.println("我是一条狗！");
+    }
 }
