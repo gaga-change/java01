@@ -1,7 +1,7 @@
 package _03继承;
 
 // 动物类
-public class Animale {
+abstract public class Animale {
 
     public int _public;
     protected int _protected;
@@ -17,6 +17,8 @@ public class Animale {
         this.age = age;
         this.name = name;
     }
+
+    abstract public void test();
 
     public void say() {
         System.out.println(this.name);

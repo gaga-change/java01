@@ -19,4 +19,8 @@ public class Dog extends Animale {
         super.say();
         System.out.println("我是一条狗！");
     }
+    
+    public void test() {
+
+    }
 }
