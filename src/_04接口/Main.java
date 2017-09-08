@@ -7,11 +7,15 @@ public class Main {
     }
 }
 
-interface ComputedUsb {
+interface ComputedUsb extends a,b{
+    int a = 1;
     public void start();
 
     public void stop();
 }
+
+interface a{}
+interface b{}
 
 // 手机类
 class Phone implements ComputedUsb {
